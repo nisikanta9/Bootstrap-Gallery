@@ -1,0 +1,28 @@
+/*(Creation of a Photo  Gallery by using html,css,bootstrap)*/
+ h1{
+   font-size: 3em;
+    color:red;
+    text-align:center;
+    text-decoration: underline;
+ }  
+ body{
+    padding-top: 50px;
+ }
+ .navbar{
+    background:blue;
+ }
+ .navbar a{
+    color:black;
+ }
+ .container .jumbotron{
+    background: green;
+}
+/*.fa-solid{
+   font-weight: 900 !important;
+}*/
+    
+/* .jumbotron{
+    background: red;
+    color: blue;
+ }*/
+

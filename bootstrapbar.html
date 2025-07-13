@@ -1,0 +1,140 @@
+<!-- (Creation of a Photo  Gallery with nav-bar by using html,css,bootstrap) -->
+
+<!doctype html>
+<html lang='en' dir='ltr'>
+    <head>
+        <meta charset='utf-8'>
+    		<link rel="stylesheet" href="bootstrap.css">
+        <link rel="stylesheet" href="bootstrapbar.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+        <title>Nisi BAR</title>
+    </head>
+    <body>
+
+
+		       <nav class="navbar navbar-expand-lg navbar-light fixed-top " style="background-color:lightskyblue;">
+            <div class='container'>
+            <!-- Navbar content -->
+              <!-- As a link -->
+                  <!-- <a class="navbar-brand" href="http://www.google.com/">Google</a> -->
+              <!-- As a heading -->
+                  <!-- <span class="navbar-brand mb-0 h1">NISI</span> -->
+              <!-- As an image -->
+                  <!-- <a class="navbar-brand" href="http://www.google.com/">
+                  <img src="beer.jpg" width="30" height="30" alt="">
+                  </a> -->
+              <!-- As an image and text -->
+                   <a class="navbar-brand" href="bar.html">
+                  <img src="nisi1.jpg" width="30" height="30" class="d-inline-block align-top" alt="Not Found">
+                  NISIKANTA BAR
+                  </a>
+              <!-- Step-2(Adding button tag for Hamburger just after the brand)-->
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+              </button>
+              <!-- Step-1(Collapse only the navbar items for Hamburger not the brand) -->
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+              <!-- how to add items to navbar(default left side) -->
+                  <ul class="navbar-nav mr-auto">
+                      <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                      </li>
+                      <li class="nav-item active">
+                        <a class="nav-link" href="#">Gallery <span class="sr-only">(current)</span></a>
+                      </li>
+                      <li class="nav-item active">
+                        <a class="nav-link" href="#">Services <span class="sr-only">(current)</span></a>
+                      </li>
+              <!-- Adding a dropdown as the left side navbar item. -->
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                          Choose Drink
+                        </a>
+                        <div class="dropdown-menu">
+                          <a class="dropdown-item" href="#">Chilled Beers</a>
+                          <a class="dropdown-item" href="#">Imported Whiskey</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="#">Desi Rum</a>
+                          <a class="dropdown-item" href="#">Europian Scotch</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="#">British Champagne</a>
+                          <a class="dropdown-item" href="#">Other Indian Brands</a>
+                        </div>
+                      </li>
+                  </ul>
+              <!-- how to add items to navbar right side-->
+                  <ul class="navbar-nav ml-auto">
+                      <li class="nav-item active">
+                        <a class="nav-link" href="#"><i class="fa-solid fa-phone-volume"></i>&nbsp;<i class="fa-brands fa-square-whatsapp"></i>&nbsp;<i class="fa-solid fa-square-envelope"></i>&nbsp;Contact Us <span class="sr-only">(current)</span></a>
+                      </li>
+
+              <!-- Adding a search box as the right side navbar items. -->
+                      <form class="form-inline">
+                      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                      </form>
+
+                      <li class="nav-item active">
+                        <a class="nav-link" href="#">Login &nbsp;<i class="fa-solid fa-user-group"></i><span class="sr-only">(current)</span></a>
+                      </li>
+                    </ul>
+              </div>
+            </div>
+         </nav>
+            <div class="container">
+                <div class="jumbotron">
+                  <h1><i class="fa-solid fa-camera"></i>&nbsp;NISI BAR Photo Gallery&nbsp;<i class="fa-solid fa-wine-glass"></i></h1>
+                </div>
+                <div class="row">
+                     <div class="col-lg-3 col-6 img-thumbnail ">
+                     <img class="img-fluid" src="beer.jpg" alt="">
+                     </div>
+                     <div class="col-lg-3 col-6 img-thumbnail ">
+                     <img class="img-fluid" src="beer.jpg" alt="">
+                     </div>
+                     <div class="col-lg-3 col-6 img-thumbnail ">
+                     <img class="img-fluid" src="beer.jpg" alt="">
+                     </div>
+                     <div class="col-lg-3 col-6 img-thumbnail ">
+                     <img class="img-fluid" src="beer.jpg" alt="">
+                     </div>
+                     <div class="col-lg-3 col-6 img-thumbnail ">
+                     <img class="img-fluid" src="beer.jpg" alt="">
+                     </div>
+                     <div class="col-lg-3 col-6 img-thumbnail ">
+                     <img class="img-fluid" src="beer.jpg" alt="">
+                     </div>
+                     <div class="col-lg-3 col-6 img-thumbnail ">
+                     <img class="img-fluid" src="beer.jpg" alt="">
+                     </div>
+                     <div class="col-lg-3 col-6 img-thumbnail ">
+                     <img class="img-fluid" src="beer.jpg" alt="">
+                     </div>
+                     <div class="col-lg-3 col-6 img-thumbnail ">
+                     <img class="img-fluid" src="beer.jpg" alt="">
+                     </div>
+                     <div class="col-lg-3 col-6 img-thumbnail ">
+                     <img class="img-fluid" src="beer.jpg" alt="">
+                     </div>
+                     <div class="col-lg-3 col-6 img-thumbnail ">
+                     <img class="img-fluid" src="beer.jpg" alt="">
+                     </div>
+                     <div class="col-lg-3 col-6 img-thumbnail ">
+                     <img class="img-fluid" src="beer.jpg" alt="">
+                     </div>
+
+                </div>
+
+
+
+            </div>
+
+         <!-- For hamburger to show navbar items first jquery js cdn and then bootstrap js cdn must be added at the last inside the body part.   -->
+
+          <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+    </body>
+</html>
